@@ -16,6 +16,7 @@
     "prepublishOnly": "npm run format && npm run build"
   },
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.161",
     "@types/node": "^25.5.0",
     "typescript": "^5.9.3",
     "xo": "^2.0.2"
@@ -44,5 +45,8 @@
   },
   "keywords": [],
   "author": "",
-  "license": ""
+  "license": "",
+  "dependencies": {
+    "@dependahub/aws-lambda": "^1.1.2"
+  }
 }
