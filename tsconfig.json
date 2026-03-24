@@ -1,0 +1,27 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "**/*.spec.js",
+    "**/*.test.js"
+  ],
+  "compilerOptions": {
+    "rootDir": "./src",
+    "baseUrl": "./src",
+    "declarationDir": "./@types",
+    "moduleResolution": "nodenext",
+    "target": "ESNext",
+    "module": "NodeNext",
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "esnext"
+    ],
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": true
+  }
+}
