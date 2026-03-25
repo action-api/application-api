@@ -15,8 +15,15 @@
     "test": "node --test",
     "prepublishOnly": "npm run format && npm run build"
   },
+  "dependencies": {
+    "@dependahub/aws-lambda": "^1.1.2",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1"
+  },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.161",
+    "@types/lodash.camelcase": "^4.3.9",
+    "@types/lodash.kebabcase": "^4.1.9",
     "@types/node": "^25.5.0",
     "typescript": "^5.9.3",
     "xo": "^2.0.2"
@@ -45,8 +52,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "",
-  "dependencies": {
-    "@dependahub/aws-lambda": "^1.1.2"
-  }
+  "license": ""
 }
