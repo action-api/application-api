@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@dependahub/aws-lambda": "^1.1.2",
+    "@trusquetta/aws-cognito": "^1.3.0",
     "lodash.camelcase": "^4.3.0",
     "lodash.kebabcase": "^4.1.1"
   },

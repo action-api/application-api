@@ -1,11 +1,5 @@
 import {router} from './utils/router/index.js';
-
-const config = {
-	actionsPath: './actions',
-	serviceMapToFunctionName: {
-		example: 'example-service',
-	},
-};
+import * as config from './config.js';
 
 /**
  * @type {import('@types/aws-lambda').APIGatewayProxyHandler}
